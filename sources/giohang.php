@@ -189,7 +189,7 @@
 								<td colspan="2"><img widh="80%" src="http://'.$config_url.'/'._upload_hinhanh_l.$row_banner['photo'].'" /></td>
 								</tr>';
 						$body .= '<tr style="font-weight: bold;font-size: 20px;">
-									<td colspan="2">ĐÈN CHIẾU SÁNG CÔNG CỘNG</td>
+									<td colspan="2">QUÀ MIỀN TRUNG</td>
 								</tr>';
 						$body .= '<tr>
 									<td colspan="2">ĐC: '.$company['diachi'].'</td>
@@ -258,7 +258,7 @@
 						}
 						$body .= '<tr style="color:#000; text-align:left; font-style:bold;"><td colspan="2">Ghi chú: '.$noidung.'</td></tr>';
 						$body.='<tr style="color:red; text-align:left; font-style:italic;">
-        	<td colspan="2">*  Cảm ơn Quí khách đã mua hàng tại CTCO, chúng tôi sẽ liên hệ và gởi hàng trong thời gian sớm nhất!</td>
+        	<td colspan="2">*  Cảm ơn Quí khách đã mua hàng tại website, chúng tôi sẽ liên hệ và gởi hàng trong thời gian sớm nhất!</td>
         </tr>';
 				   $body.='</table>';
 				   #------------Chi tiết đơn hàng---------------------
