@@ -1,6 +1,6 @@
 <?php
     $d->reset();
-	$sql_banner = "select photo$lang as photo from #_background where type='tieude' limit 0,1";
+	$sql_banner = "select photo as photo from #_background where type='tieude' limit 0,1";
 	$d->query($sql_banner);
 	$row_tieude = $d->fetch_array();
 ?>

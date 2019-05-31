@@ -15,7 +15,7 @@
 	$pass_mail = 'Nhutrom@123';
     $email_nhan = 'minhnhutc2@gmail.com';
 
-	$config['lang']=array(''=>'Tiếng Việt');#Danh sách ngôn ngữ hỗ trợ
+	$config['lang']=array(''=>'Tiếng Việt', 'en' => 'Tiếng Anh');#Danh sách ngôn ngữ hỗ trợ
 	
 	date_default_timezone_set('Asia/Ho_Chi_Minh');
 

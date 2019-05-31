@@ -1,0 +1,76 @@
+.hotro {
+    width: 101.7%;
+    margin-left: -10px;
+}
+.hotro ul {
+  list-style: none;
+}
+.hotro li {
+    float: left;
+    width: 33.33333%;
+    padding: 0px 10px;
+   
+}
+.item-hotro .item-content {
+    padding: 20px 20px;
+     border-radius: 5px;
+     
+}
+.item-hotro .img_hotro
+{
+    width: 30%;
+    float: left;
+}
+.item-hotro .img_hotro img
+{
+    width: 100%;
+}
+.item-hotro .info-hotro {
+    width: 65%;
+    float: right;
+    margin-top: 2px;
+}
+.item-hotro .info-hotro h3
+{
+    text-transform: uppercase;
+}
+.item-hotro .info-hotro p
+{
+    font-size: 11px;
+}
+.item-hotro-1 .item-content
+{
+    background: #1bbc9b;
+}
+.item-hotro-2 .item-content
+{
+    background: #fa5c5b;
+}
+.item-hotro-3 .item-content
+{
+    background: #cd7dff;
+}
+@media screen and (max-width: 960px) {
+   
+}
+@media screen and (max-width: 803px) {
+    
+}
+@media screen and (max-width: 603px) {
+  
+}
+@media screen and (max-width: 460px) {
+    .hotro
+    {
+        width:100%;
+        margin: 10px 0px;
+    }
+    .hotro li    {
+        width:100%;
+        margin: 0px;
+        margin-bottom: 10px;
+        padding: 0px;
+    }
+    
+    
+}     

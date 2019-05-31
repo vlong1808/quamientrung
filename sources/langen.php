@@ -8,6 +8,7 @@
 @define ('_dichvu','Services');
 @define ('_congtrinh','work');
 @define ('_duan','projects');
+@define ('_tuvansanpham','Product advice');
 @define ('_tuyendung','Recruitment');
 @define ('_khuyenmai','Offer');
 @define ('_lienhe', 'Contacts');
@@ -36,6 +37,11 @@
 @define ('_tintucmoi', 'News');
 @define ('_congtrinhmoi', 'New work');
 @define ('_duanmoi', 'New Project');
+@define ('_hotro','Support');
+@define ('_tinmoi','News');
+@define ('_thongtincongty','Company information');
+@define ('_chinhsachmuahang','Purchase policy');
+@define ('_kenhthongtinchungtoi','Information channel us');
 
 // ---------------- Tiêu đề ----------------
 @define ('_hotrotructuyen','Online Support');

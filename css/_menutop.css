@@ -1,0 +1,96 @@
+div.wap_menu
+{
+	position:relative;
+	background:#0093dd;
+	margin:auto;
+	width:100%;
+}
+
+div.menu
+{
+	position:relative;
+	max-width:1200px;
+    padding: 0px 0px;
+	margin:auto;
+	height:50px;
+	line-height:50px;
+    color: #fff;
+    font-family: Roboto-Medium;
+}
+div.menu ul
+{
+  color: #fff !important;
+  list-style:none;
+  width: 100%;
+  text-align: left;
+}
+
+div.menu ul li
+{
+  
+  display: inline-block;
+  position:relative;
+  z-index:50;
+  font-size: 13pt;
+}
+div.menu ul li a
+{
+	color: #fff;
+    font-size: 15px;
+    padding: 0px 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    
+}
+div.menu ul li a:hover,div.menu ul li a.active,div.menu ul li a.active2
+{
+	background:#e03637;
+    color:#fff !important;
+}
+div.menu ul li ul,div.menu ul li:hover ul li ul
+{
+	position:absolute;
+	margin-left:0px;
+	display:none;
+    min-width: 200px;
+    background: #e03637;
+    color:#fff !important;
+	line-height: 1.5;	
+}
+div.menu ul li ul li
+{   
+    float:none;
+    color:#ffffff !important;
+    width: 100%;
+}
+div.menu ul li ul li a
+{
+	padding:6px 10px;
+	text-transform:none;
+	display:block;
+    color: #fff !important;
+	border-bottom: 1px solid #fff;
+}
+div.menu ul li ul li ul
+{	
+	left:100%;
+	top:0px;
+    color: #fff !important;
+}
+@media screen and (max-width: 960px) {
+    .danhmuc-menu
+    {
+        display:none;
+    }
+}
+@media screen and (max-width: 803px) {
+    
+}
+@media screen and (max-width: 603px) {
+  
+}
+@media screen and (max-width: 460px) {
+   
+   
+}

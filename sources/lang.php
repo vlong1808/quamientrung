@@ -10,6 +10,7 @@
 @define ('_duan','Dự án');
 @define ('_tuyendung','Tuyển dụng');
 @define ('_khuyenmai','Khuyến mãi');
+@define ('_tuvansanpham','Tư vấn sản phẩm');
 @define ('_lienhe','Liên hệ');
 @define ('_quangcao','Quảng cáo');
 @define ('_doitac','Đối tác');
@@ -36,7 +37,10 @@
 @define ('_tintucmoi','Tin tức mới');
 @define ('_congtrinhmoi','Công trình mới');
 @define ('_duanmoi','Dự án mới');
-
+@define ('_hotro','Hổ trợ');
+@define ('_tinmoi','Tin mới');
+@define ('_thongtincongty','Thông tin công ty');
+@define ('_chinhsachmuahang','Chính sách mua hàng');
 
 //---------------- Tiêu đề ----------------
 @define ('_hotrotructuyen','Hỗ trợ trực tuyến');

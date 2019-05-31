@@ -1,0 +1,129 @@
+div#slider
+{
+    max-width: 1200px;
+	margin:auto;
+    padding: 0px 0px;
+}
+#slider-right
+{
+    width: 75%;
+    float: right;
+}
+.title-danhmuc
+{
+    padding: 10px 25px;
+    background: #0093dd;
+    color: #fff;
+}
+.title-danhmuc h3
+{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.title-danhmuc h3 i
+{
+    font-size: 18px;
+}
+#danhmuc-left
+{
+    width: 25%;
+    float: left;
+    padding: 0px 0px;
+    background: #ece5e5;
+}
+#danhmuc-left a
+{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+#danhmuc-left .list-danhmuc
+{
+    list-style: none;
+    
+}
+#danhmuc-left .list-danhmuc i
+{
+    color: #ccc;
+    margin: 0px 10px;
+}
+#danhmuc-left .list-danhmuc>li
+{
+    padding: 11px 15px;
+    border-bottom: solid 1px #ccc;
+    font-family: Roboto-Medium;
+}
+#danhmuc-left .list-danhmuc li ul
+{
+    list-style: none;
+    padding: 0px 0px;
+    
+}
+#danhmuc-left .list-danhmuc li ul li
+{
+    padding: 5px 0px;
+    font-family: myFont;
+}
+#danhmuc-left .list-danhmuc li ul i
+{
+    width: 12px;
+    text-align: center;
+}
+#danhmuc-left .list-danhmuc a:hover
+{
+    padding-left:5px ;
+    transition: 0.5s;
+    color: #e03637;
+}
+#danhmuc-left .list-danhmuc li:last-child
+{
+    border-bottom: none;
+}
+#danhmuc-left .actived
+{
+    color: red;
+}
+#danhmuc-left .show
+{
+    display: block;
+}
+#danhmuc-left .hide
+{
+    display: none;
+}
+.title-slider
+{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    max-width: 60%;
+    z-index: 99;
+    padding: 5px;
+    background: rgba(0,0,0,0.6);
+}
+.title-slider a
+{
+    color: #fff;
+    text-decoration: none;    
+    
+}
+@media screen and (max-width: 960px) {
+    #danhmuc-left
+    {
+        display:none;
+    }
+    #slider-right
+    {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 803px) {
+    
+}
+@media screen and (max-width: 603px) {
+  
+}
+@media screen and (max-width: 460px) {
+   
+   
+}

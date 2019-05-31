@@ -1,0 +1,36 @@
+div#tabs
+{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+div#tabs ul#ultabs 
+{
+	list-style:none;
+	border-bottom:1px solid #d0d0d0;
+	height: 41px;
+	padding-left:8px;
+}
+div#tabs ul#ultabs li
+{
+	float: left;
+    color: #000;
+    background: #fff;
+    padding: 8px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-bottom: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+div#tabs ul#ultabs li.active
+{
+	color:#0404b0;
+	border:1px solid #d0d0d0;
+	border-bottom: 1px solid #fff;
+}
+div#content_tabs
+{	
+	border-top:none;
+	padding:10px 0px;
+}
