@@ -1,0 +1,201 @@
+.left-item
+{
+    width: 100%;
+    background: #fff;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+.product-new .title
+{
+    padding: 10px 20px;
+    background: #0093dd;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Roboto-Medium;
+}
+.left-item .title
+{
+    padding: 10px 20px;
+    background: #0093dd;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Roboto-Medium;
+}
+.left-item  .content-item
+{
+    padding: 10px;
+}
+.product-new .item-prn
+{
+    border-bottom: 1px solid #ccc!important;
+    padding: 10px 0px;
+    height: auto!important;
+}
+.product-new .item-prn .img-item
+{
+    width: 45%;
+    float: left;
+}
+.product-new .item-prn .img-item img
+{
+    width: 100%;
+}
+.product-new .item-prn a
+{
+    text-decoration: none;
+    color: #000;
+}
+.product-new .item-prn .price
+{
+    color: red;
+    font-family: Roboto-Medium;
+    padding: 10px 0px;
+}
+.news-new .news-content .content-item-news
+{
+    padding: 10px;
+    
+}
+.news-new .news-content .content-item-news .item-news
+{
+   min-height: 400px;
+}
+.news-new .content-item-news .item-news img
+{
+    width: 100%;
+}
+.news-new .content-item-news .item-news a
+{
+    text-decoration: none;
+    color: #000;
+}
+.news-new .content-item-news .item-news ul
+{
+    list-style: none;
+}
+.news-new .content-item-news .item-news li
+{
+   display: inline-block;
+   width: 49%;
+   padding: 5px 0px;
+   color: #ccc;
+}
+.news-new .content-item-news .item-news li i
+{
+    color: red;
+}
+.suport .content-item-news
+{
+    padding: 10px;
+}
+.suport .content-item-news ul
+{
+    list-style: none;
+}
+.suport .content-item-news li
+{
+    padding: 10px 0px;
+    border-bottom: 1px solid #ccc;
+}
+.suport .content-item-news li:last-child
+{
+    border:none;
+}
+.suport .content-item-news .item-info
+{
+    width: 100%;
+   
+}
+.suport .content-item-news li .name-hl
+{
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:15px;
+    color: red;
+    
+}
+.suport .content-item-news li p
+{
+    font-weight: bold;
+}
+.suport .content-item-news li .zalo
+{
+    line-height: 40px;
+    height: 40px;
+}
+.suport .content-item-news li .zalo img
+{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 0px;
+}
+.suport .content-item-news li .zalo span
+{
+    font-weight: bold;
+    font-size: 15px;
+}
+.suport .content-item-news li .hotline-hl
+{
+    height: 40px;
+    width: 100%;
+    background: url('../images/bg_hotline.png') top left no-repeat;
+    background-size: auto 100%;
+    margin-top: 10px;
+    padding-left: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-size:15px;
+}
+.suport .content-item-news li a
+{
+    text-decoration: none;
+    color: #000;
+}
+.suport .content-item-news li .icon-hotro
+{
+    font-size: 25px;
+    color: red;
+    float: left;
+    width: 15%;
+    margin-top: 10px;
+}
+.suport .content-item-news .item-info2
+{
+    width: 85%;
+    float: right;
+    font-size: 15px;
+}
+.ltc
+{
+    padding: 0px 10px;
+}
+.ltc .title-ltc
+{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom:1px solid #0093dd;
+    position: relative;
+}
+.ltc .title-ltc:after
+{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background: #0093dd;
+    left: 0px;
+    bottom: -2px;
+}
+.ltc ul
+{
+    list-style: none;
+    margin-top: 10px;
+   
+}
+.ltc ul li
+{
+    margin-bottom: 10px;
+}

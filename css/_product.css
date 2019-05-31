@@ -1,0 +1,90 @@
+.content-category
+{
+    background: #fff;
+    margin-bottom: 20px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    position: relative;
+}
+.content-product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.item
+{
+    width: 25%;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+.content-item
+{
+    list-style: none;
+}
+.item:last-child
+{
+    border-right: none;
+}
+.item a
+{
+    text-decoration:none;
+    color: #000;
+}
+.item .tomtat .sp_name
+{
+    line-height: 1.5;
+    min-height: 40px;
+}
+.item_custom
+{
+    width: 23%;
+    margin: 10px 1%;
+    border: 1px solid #ccc;
+}
+@media screen and (max-width: 960px) {
+    
+    
+}
+@media screen and (max-width: 803px) {
+    
+}
+@media screen and (max-width: 603px) {
+    div.tieude_giua a
+    {
+        display: none!important;
+    }
+    .page-top
+    {
+        display:none;
+    }
+   .item
+   {
+        width:50%;
+        border-right:none;
+        border-bottom: 1px solid #ccc;
+   }
+   .item_custom
+    {
+        width: 48%;
+        margin: 10px 1%;
+        border: 1px solid #ccc;
+    }
+}
+@media screen and (max-width: 460px) {
+   
+   .item
+   {
+        width:100%;
+        border-right:none;
+        border-bottom: 1px solid #ccc;
+   }
+   .item:last-child
+   {
+        border-bottom:none;
+   }
+   .item_custom
+    {
+        width: 98%;
+        margin: 10px 1%;
+        border: 1px solid #ccc;
+    }
+}

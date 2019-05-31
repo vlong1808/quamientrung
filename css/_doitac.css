@@ -1,0 +1,21 @@
+.doitac
+{
+    width: 100%;
+    padding:20px 0px;
+    background: #f10e34;
+}
+.doitac .content-doitac
+{
+    max-width: 1200px;
+    margin: auto;
+}
+.doitac .item-doitac
+{
+    width: 90%;
+    margin: 0px 5%;
+}
+.doitac .item-doitac img
+{
+    width: 100%;
+    height: 100px;
+}

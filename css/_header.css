@@ -1,0 +1,222 @@
+#header {
+    width: 100%;
+    background:#fff;
+}
+#header .header-content {
+   max-width: 1200px;
+   margin: 0px auto;
+  
+}
+#header  .header-right
+{
+    width: 80%;
+    float: right;
+}
+#header .header-left
+{
+    width: 20%;
+    float: left;
+}
+#header .header-left .logo
+{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+#header .help-menu {
+    height: 35px ;
+    line-height: 35px;
+    text-align: right;
+}
+#header .help-menu ul{
+    list-style: none;
+}
+#header .help-menu li{
+    display: inline-block;
+
+
+}
+#header .help-menu a{
+     padding: 0px 10px;
+    border-right: 1px solid #34414a;
+    color: #34414a;
+    text-decoration: none;
+
+}
+#header .help-menu a:hover{
+     color: #da251c;
+
+}
+#header .help-menu li:last-child a
+{
+    padding-right: 0px;
+    border-right:none;
+}
+.row-header
+{
+    width: 100%;
+    padding: 10px 0px;
+}
+#header  .sreach-pro
+{
+    width: 85%;
+    float: left;
+    padding: 0px 10px;
+    text-align: center;
+}
+#header  .sreach-pro h3
+{
+    width: 100%;
+    font-size:24px;
+    color: #0093dd;
+}
+
+#header  .cart-user
+{
+    width: 15%;
+    float: left;
+    padding: 0px 10px;
+}
+#header  .cart-user ul
+{
+    list-style: none;
+    height: 35px;
+    line-height: 35px;
+}
+#header  .cart-user li
+{
+   display: inline-block; 
+   width: 48%;
+   font-size: 20px;
+   text-align: center;
+   border-right:1px solid #ccc;
+   
+}
+#header  .cart-user li:last-child
+{
+     border-right:none;
+}
+#header  .cart-user .cart sup
+{
+    font-size: 11px;
+    background: #d60000;
+    color: #fff;
+    padding:3px 6px;
+    border-radius:50%;
+    margin-left: 0px;
+}
+#header  .cart-user .users
+{
+    position: relative;
+}
+#header  .cart-user .users .fa-sort-desc
+{
+    font-size: 11px;
+    margin-left: 10px;  
+}
+#header  .cart-user .users ul
+{
+    position: absolute;
+    top: 35px;
+    right: 0px;
+    width: 150px;
+    list-style: none;
+    z-index: 1;
+    background: #fff;
+    height: auto;
+    display: none;
+    z-index: 99999999999999;
+}
+#header  .cart-user .users ul li
+{
+    width: 100%;
+    padding: 0px 10px;
+    border-bottom: 1px dashed #ccc;
+    border-right: none;
+    font-size: 14px;
+    text-align: left;
+}
+#header  .cart-user .users ul li:last-child
+{
+    border-bottom: none;
+}
+#header  .cart-user .users a
+{
+    text-decoration: none;
+    color: #000;
+}
+#header  .cart-user .users a:hover
+{
+    color: red;
+}
+#header  .cart-user .users:hover ul
+{
+    display: block;
+    transition: 0.5s;
+}
+.cart a
+{
+    color: #000;
+    text-decoration: none;
+}
+
+.lang img {
+    width: 15px;
+}
+@media screen and (max-width: 960px) {
+    
+   #header .header-content {
+   margin: 0px auto;
+   padding:0px 10px;
+  
+    }
+    #header .header-left, #header  .header-right
+    {
+        width: 100%;
+        float: none;
+    }
+    #header .header-left .logo
+    {
+        width: 100%;
+        text-align: center;
+        
+        margin-top: 5px;
+    }
+    #header .help-menu {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 803px) {
+    
+}
+@media screen and (max-width: 603px) {
+  #header  .sreach-pro
+    {
+        width: 100%;
+        float: none;
+        
+    }
+    #header  .cart-user
+    {
+        width: 100%;
+        float: none;
+        padding: 0px 10px;
+        margin-top: 10px;
+        text-align: right;
+    }
+    #header  .cart-user li
+    {
+       width: auto;
+       font-size: 20px;
+       text-align: center;
+       border-right:none;
+       padding: 0px 20px;
+       
+    }
+    
+}
+@media screen and (max-width: 460px) {
+   
+    
+   
+}

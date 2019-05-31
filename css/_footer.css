@@ -1,0 +1,113 @@
+.footer
+{
+    width: 100%;
+    background: #303030;
+    color: #fff;
+}
+.footer ul
+{
+    list-style: none;
+}
+.footer ul a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.footer .footer-content
+{
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px 0px;
+}
+.footer .footer-content .footer-item
+{
+    width: 25%;
+    padding:0px 10px;
+    float: left;
+}
+.footer .footer-item .title-item
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
+.footer .footer-item ul li
+{
+    padding: 5px 0px;
+}
+.footer .footer-item ul li a:hover
+{
+    color: red;
+}
+.footer .footer-item .lienkent
+{
+    text-align: left;
+}
+.footer .footer-item .lienkent li
+{
+    display: inline-block;
+}
+.footer .footer-item .lienkent li i
+{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #fff;
+    font-size: 18px;
+    text-align: center;
+}
+.copy-write
+{
+    width: 100%;
+    border-top: 1px solid #fff;
+    margin-top: 10px;
+    padding: 10px;
+}
+.copy-write .content-copy-write
+{
+    max-width: 1200px;
+    margin: auto;
+}
+.copy-write .content-copy-write .creat-by
+{
+    float: left;
+    max-width: 50%;
+}
+.copy-write .content-copy-write .creat-by a
+{
+    text-decoration: none;
+    color: red;
+}
+.copy-write .content-copy-write .bank
+{
+    float: right;
+    max-width: 50%;
+}
+.copy-write .bank li
+{
+    display: inline-block;
+}
+@media screen and (max-width: 960px) {
+     
+}
+@media screen and (max-width: 803px) {
+    
+}
+@media screen and (max-width: 603px) {
+    .footer .footer-content .footer-item
+    {
+        width: 50%;
+        
+    }
+}
+@media screen and (max-width: 460px) {
+   
+    .footer .footer-content .footer-item
+    {
+        width: 100%;
+        padding:0px 10px;
+        float: none;
+    }
+   
+}

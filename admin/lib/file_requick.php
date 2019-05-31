@@ -69,31 +69,14 @@
 			$title_other = _tinlienquan;
 			$source = "news";
 			$template = isset($_GET['id']) ? "news_detail" : "news";
-			break;	
-		case 'ban-gia-tai-lieu':
-			$type = "bangia";
-			$title = 'Bảng giá và tài liệu';
-			$title_cat = 'Bảng giá và tài liệu';
-			$title_other = _tinlienquan;
-			$source = "news";
-			$template = isset($_GET['id']) ? "news_detail" : "banggia";
 			break;
-        case 'tu-van-thiet-ke':
+        case 'tu-van':
 			$type = "tuvan";
-			$title = 'Tư vấn thiết kế';
-			$title_cat = 'Tư vấn thiết kế';
+			$title = _tuvansanpham;
+			$title_cat =  _tuvansanpham;
 			$source = "news";
 			$template = isset($_GET['id']) ? "news_detail" : "news";
-			break;	
-		case 'du-an':
-			$type = "duan";
-			$title = _duan;
-			$title_cat = _duan;
-			$title_other = _tinlienquan;
-			$source = "news";
-			$template = isset($_GET['id']) ? "congtrinh_detail" : "news";
 			break;
-			
 		case 'lien-he':
 			$type = "lienhe";
 			$title = _lienhe;
@@ -107,14 +90,6 @@
 			$title = _ketquatimkiem;
 			$title_cat = _ketquatimkiem;
 			$source = "search";
-			$template = "product";
-			break;
-            
-        case 'nha-san-xuat':
-			$type = "sanpham";
-			$title = _ketquatimkiem;
-			$title_cat = _ketquatimkiem;
-			$source = "nhasanxuat";
 			$template = "product";
 			break;
 			
@@ -142,15 +117,6 @@
 			$source = "product";
 			$template = isset($_GET['id']) ? "product_detail" : "product";
 			break;
-        case 'san-pham-huu-co':
-			$type = "sanpham";
-			$title = 'Sản phẩm hữu cơ';
-			$title_cat = 'Sản phẩm hữu cơ';
-			$title_other = _sanphamcungloai;
-			$source = "product";
-			$template = isset($_GET['id']) ? "product_detail" : "product_hc";
-			break;
-			
 		case 'phan-trang-danh-muc':
 			$type = "sanpham";
 			$title = _sanpham;

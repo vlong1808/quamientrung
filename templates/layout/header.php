@@ -9,12 +9,15 @@
         <div class="header-right">
             <div class="help-menu">
                 <ul>
-                    <li class="cart">
-                        <a href="gio-hang.html"><i class="fa fa-opencart" aria-hidden="true"></i><span><sup
-                                        id="info_cart"><?= count($_SESSION['cart']) ?></sup></span></a></li>
-                    <li><a href="ho-tro.html">Hổ trợ</a></li>
-                    <li><a href="theo-doi-don-hang.html">Theo dõi đơn hàng</a></li>
-                    <li><a href="khuyen-mai.html">Khuyến mãi</a></li>
+<!--                    <li class="cart">-->
+<!--                        <a href="gio-hang.html"><i class="fa fa-opencart" aria-hidden="true"></i><span><sup-->
+<!--                                        id="info_cart">--><?//= count($_SESSION['cart']) ?><!--</sup></span></a></li>-->
+                    <li><a href="ho-tro.html"><?=_hotro?></a></li>
+                    <li><a href="khuyen-mai.html"><?=_khuyenmai?></a></li>
+                    <li><a class="<?php if($_REQUEST['com'] == 'tin-tuc') echo 'active'; ?>" href="tin-tuc.html"><?=_tintuc?></a></li>
+                    <li class="lang" ><a href="index.php?com=ngonngu&lang=en" title="English"><img src="./images/en.png" /></a>
+
+                    <a href="index.php?com=ngonngu&lang=" title="Việt Nam"><img src="./images/vi.png" /><strong></strong></a></li>
                 </ul>
             </div>
             <!--<div class="row-header">

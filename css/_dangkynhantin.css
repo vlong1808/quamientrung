@@ -1,0 +1,47 @@
+.dangkynhantin
+{
+    width: 100%;
+    margin: 20px 0px;
+    padding: 20px 0px;
+    background: #fff;
+}
+div#dknt
+{
+    min-width: 326px;
+    width: 40%;
+    margin: 0px auto;
+    text-align:center;
+}
+form#frm_dknt
+{
+	background:#fff;
+	height:35px;
+	margin:10px 0;
+}
+form#frm_dknt input[type='text']
+{
+	width:260px;
+	padding:0px 5px;
+	
+	height: 35px;
+	border:none;
+	background:none;
+	outline:none;
+	color:#000;
+	outline:none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form#frm_dknt input[type='button']
+{
+	background:#e03637;
+	color:#fff;
+	width:100px;
+	height:35px;
+	line-height:35px;
+	border:none;
+	cursor:pointer;
+	text-transform:uppercase;
+	outline:none;
+     border-radius: 5px;
+}

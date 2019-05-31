@@ -20,7 +20,7 @@
 </script>
 <div class="suport left-item">
     <div class="suport-content left-item-content">
-        <div class="title">Hổ trợ trực tuyến</div>
+        <div class="title"><?=_hotrotructuyen?></div>
         <div class="content-item-news">
             <ul>
                 <?php for($i=0;$i<count($hotro);$i++) { ?>
@@ -39,7 +39,7 @@
 
  <div id="news-new" class="news-new left-item">
     <div class="news-content left-item-content">
-        <div class="title">Tin mới</div>
+        <div class="title"><?=_tinmoi?></div>
         <div class="content-item-news">
             <?php for($i=0;$i<count($tintuc_f);$i++) { ?>
                 <div class="item-news">

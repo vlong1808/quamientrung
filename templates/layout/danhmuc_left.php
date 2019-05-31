@@ -1,5 +1,5 @@
 <div class="title-danhmuc">
-    <h3><i class="fa fa-bars" aria-hidden="true"></i> Danh mục sản phẩm</h3>
+    <h3><i class="fa fa-bars" aria-hidden="true"></i><?=_danhmucsanpham?></h3>
 </div>
 <ul class="list-danhmuc">
     <?php for($i = 0; $i<count($danhmuc_product);$i++) { ?>

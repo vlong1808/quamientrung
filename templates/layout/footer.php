@@ -3,7 +3,7 @@
 <div class="footer">
     <div class="footer-content">
         <div class="footer-item">
-            <div class="title-item">Thông tin công ty</div>
+            <div class="title-item"><?=_thongtincongty?></div>
             <div class="content-items">
                 <ul>
                     <?php for($i=0;$i<count($thongtin);$i++) { ?>
@@ -13,7 +13,7 @@
             </div>
         </div>
         <div class="footer-item">
-            <div class="title-item">Hỗ trợ khách hàng</div>
+            <div class="title-item"><?=_hotro?></div>
             <div class="content-items">
                 <ul>
                     <?php for($i=0;$i<count($hotro_f);$i++) { ?>
@@ -23,7 +23,7 @@
             </div>
         </div>
         <div class="footer-item">
-            <div class="title-item">Chính sách mua hàng</div>
+            <div class="title-item"><?=_chinhsachmuahang?></div>
             <div class="content-items">
                 <ul>
                     <?php for($i=0;$i<count($chinhsach);$i++) { ?>
@@ -33,11 +33,11 @@
             </div>
         </div>
          <div class="footer-item">
-            <div class="title-item">Kênh thông tin chúng tôi</div>
+            <div class="title-item"><?=_kenhthongtinchungtoi?></div>
             <div class="content-items">
                 <ul>
-                    <li>Địa chỉ: <?=$company['diachi']?></li>
-                    <li>Hotline: <?=$company['dienthoai']?></li>
+                    <li><?=_diachi?>: <?=$company['diachi']?></li>
+                    <li><?=_dienthoai?>: <?=$company['dienthoai']?></li>
                     <li>Email: <?=$company['email']?></li>
                 </ul>
                 <ul class="lienkent">
@@ -53,7 +53,7 @@
     <div class="copy-write">
         <div class="content-copy-write">
             <div class="creat-by">
-                © Bản quyền thuộc về <span>ZinZin</span>  thiết kế bởi <a href="http://zinzinmedia.com/">ZinZin Media</a>
+                © Product by <span>quamientrung.com.vn</span>  Design by <a href="http://zinzinmedia.com/">ZinZin Media</a>
             </div>
             <div class="bank">
                 <ul>
