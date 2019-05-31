@@ -36,7 +36,7 @@ $(function () {
             text: 'Thống kê truy cập tháng : <?php echo $month ?> - <?php echo $year ?> '
         },
         subtitle: {
-            text: 'Devetloper by : <a href="http://ngoisaovietmedia.com">NGOI SAO VIET MEDIA .LTD</a>'
+            text: 'Devetloper by : <a href="http://zinzinmedia.com">ZINZIN MEDIA .LTD</a>'
         },
         xAxis: {
             type: 'category',
